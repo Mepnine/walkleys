@@ -1,25 +1,45 @@
 
-body{
-  background-color: white;
+div.container {
+  width: 90%;
+  border: 1px solid gray;
+}
 
-p{
-  color:red;
-  font-size: 50px;
-  }
+header, footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+
+nav {
+  float: left;
+  max-width: 230px;
+  margin: 0;
+  padding: 1em;
+    }
+
+nav ul {
+list-style-type: none;
+padding:0;
+ }
+
+ nav ul a {
+   text-decoration: none;
+ }
+
+.content {
+margin-left: 90px;
+border-left: 1px solid gray;
+padding: 1em;
+overflow: hidden;
+vertical-align: top;
+}
+.story-text {
+  width:43%;
+  display: inline-block;
+}
 img {
-  width:200px;
-  height:auto;
-}
-.common {
-background-color: white;
-width: 50%;
-margin: auto;
-text-align: center;
-font-family: "Actor";
-}
-.special {
-background-color: white;
-font-family: "Asset";
-text-align: center;
-font-size:70px;
+  width:49%;
+  display: inline-block;
 }
